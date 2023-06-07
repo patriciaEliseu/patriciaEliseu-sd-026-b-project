@@ -12,10 +12,10 @@ def find_duplicate(nums: List[int]) -> int:
             return False
         if nums[i] == nums[i + 1]:
             return nums[i]
-            return False
+        return False
 
 
 def is_palindrome_iterative(word):
     if len(word) == 0:
         return False
-        return word == word[::-1]
+    return word == word[::-1]
