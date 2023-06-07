@@ -7,7 +7,8 @@ def study_schedule(permanence_period, target_time):
             return None
         if start_time <= target_time <= exit_time:
             counter += 1
-            return counter
+    return counter
+
 
 #  peaple = len(permanence_period, target_time)
 #  raise NotImplementedError
